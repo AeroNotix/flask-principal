@@ -28,7 +28,7 @@ The major components are the Identity, Needs, Permission, and the IdentityContex
        parameter for the situation. For example "has the admin role", "can edit
        blog posts".
     
-       Needs are any tuple, or probably could be object you like, but a tuple
+       Needs are any tuple, or probably could be any object you like, but a tuple
        fits perfectly. The predesigned Need types (for saving your typing) are
        either pairs of (method, value) where method is used to specify
        common things such as `"role"`, `"user"`, etc. And the value is the
